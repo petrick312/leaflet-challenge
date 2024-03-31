@@ -2,14 +2,12 @@
 Module 15 Challenge
 
 ## Instructions
-The instructions for this activity are broken into two parts:
-    Part 1: Create the Earthquake Visualization
-    Part 2: Gather and Plot More Data (Optional with no extra points earning)
+Create the Earthquake Visualization <br />
 
-## Part 1: Create the Earthquake Visualization
-Your first task is to visualize an earthquake dataset. Complete the following steps: <br />
+## Create the Earthquake Visualization
+# Your first task is to visualize an earthquake dataset. Complete the following steps: <br />
     Get your dataset. To do so, follow these steps:<br />
-        The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualize.<br />
+        The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON page and choose a dataset to visualize.<br />
         When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization. <br />
     Import and visualize the data by doing the following:<br />
         Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.<br />
@@ -19,14 +17,14 @@ Your first task is to visualize an earthquake dataset. Complete the following st
         Your visualization should look something like the preceding map.<br />
 
 ## Requirements
-These requirements apply only to "Part 1: Create the Earthquake Visualization" as "Part 2" is optional with no extra points earning.
-    Map (60 points)
-        TileLayer loads without error (20 points)
-        Connects to geojson API using D3 without error (20 points)
-        Markers with size corresponding to earthquake magnitude (10 points)
-        A legend showing the depth and their corresponding color (10 points)
-    Data Points (40 points)
-        Data points scale with magnitude level (10 points)
-        Data points colors change with depth level (10 points)
-        Each point has a tooltip with the Magnitude, the location and depth (10 points)
-        All data points load in the correct locations (10 points)
+# These requirements apply only to "Part 1: Create the Earthquake Visualization" as "Part 2" is optional with no extra points earning. <br />
+    Map (60 points) <br />
+        TileLayer loads without error (20 points) <br />
+        Connects to geojson API using D3 without error (20 points) <br />
+        Markers with size corresponding to earthquake magnitude (10 points) <br />
+        A legend showing the depth and their corresponding color (10 points) <br />
+    Data Points (40 points) <br />
+        Data points scale with magnitude level (10 points) <br />
+        Data points colors change with depth level (10 points) <br />
+        Each point has a tooltip with the Magnitude, the location and depth (10 points) <br />
+        All data points load in the correct locations (10 points) <br />
